@@ -1,0 +1,10 @@
+.forecast-card {
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+}
+.card-body-1 {
+    display: inline-block;
+}
+
+
