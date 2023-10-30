@@ -18,93 +18,93 @@
   <header style="background-color: rgb(34, 34, 243); text-align: center;">
     <h1 style="color: aliceblue;">Weather Dashboard</h1>
   </header>
-  <!-- sereach button-->
+  <div class="row">
+    <!-- sereach button-->
+    <div class="card-body col-3" style="display: flex;">
+      <nav class="navbar bg-body-tertiary">
+        <h2>SEARCH FOR A CITY</h2>
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="col-9">
+      <div class="card text-bg-dark mb-3 row" style="max-width: 40rem;">
+        <div class="card-body" style=" background-color: #87ceeb; ">
+          <p class="card-text">
+          <h4 class="date">Minnesota</h4>
+          </p>
+          <p class="card-text">Temp:</p>
+          <p class="card-text">wind:</p>
+          <p class="card-text">humidity:</p>
+
+        </div>
+      </div>
 
 
-  <div class="card text-bg-dark mb-3">
-    <div class="card-body" style="background-color: #87ceeb; max-width: 50rem;">
-      <p class="card-text">
-      <h4>Minnesota</h4>
-      </p>
-      <p class="card-text">Temp</p>
-      <p class="card-text">wing</p>
-      <p class="card-text">humidity</p>
+      <main class="row">
 
+        <header>
+          <div>
+            <h2 style="text-align: center"> 5-Day Forcast: </h2>
+          </div>
+        </header>
+
+        <div class="cards">
+
+          <!-- cards -->
+
+          <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 13rem ;">
+            <div class="card-body" style="background-color: #272744;">
+              <h5 class="card-title" style="color: white;">Date</h5>
+              <p class="card-text" style="color: aliceblue;">Temp:</p>
+              <p class="card-text" style="color: aliceblue;">Wind</p>
+              <p class="card-text" style="color: aliceblue;">Humidity</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 13rem ;">
+            <div class="card-body" style="background-color: #1e1e39;">
+              <h5 class="card-title" style="color: white;">Date:</h5>
+              <p class="card-text" style="color: aliceblue;">Temp:</p>
+              <p class="card-text" style="color: aliceblue;">Wind:</p>
+              <p class="card-text" style="color: aliceblue;">Humidity</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 13rem ;">
+            <div class="card-body" style="background-color: #1e1e39;">
+              <h5 class="card-title" style="color: white;">Date:</h5>
+              <p class="card-text" style="color: aliceblue;">Temp:</p>
+              <p class="card-text" style="color: aliceblue;">Wind:</p>
+              <p class="card-text" style="color: aliceblue;">Humidity</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 13rem">
+            <div class="card-body" style="background-color: #1e1e39;">
+              <h5 class="card-title" style="color: white;">Date:</h5>
+              <p class="card-text" style="color: aliceblue;">Temp:</p>
+              <p class="card-text" style="color: aliceblue;">Wind</p>
+              <p class="card-text" style="color: aliceblue;">Humidity</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 13rem ;">
+            <div class="card-body" style="background-color: #1e1e39;">
+              <h5 class="card-title" style="color: white;">Date:</h5>
+              <p class="card-text" style="color: aliceblue;">Temp:</p>
+              <p class="card-text" style="color: aliceblue;">Wind:</p>
+              <p class="card-text" style="color: aliceblue;">Humidity:</p>
+            </div>
+          </div>
+
+        </div>
+      </main>
     </div>
   </div>
-  <div class="card-body" style="display: flex;">
-    <nav class="navbar bg-body-tertiary"><h2>SEARCH FOR A CITY</h2>
-      <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-  </div>
-
-  <main>
-    <div>
-      <h4 style="position: middle;"> 5-Day Forcast: </h4>
-    </div>
-
-    <div class="cards">
-
-      <!-- cards -->
-   
-      <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 12rem ;">
-        <div class="card-body" style="background-color: #272744;">
-          <h5 class="card-title" style="color: white;">Dark card title</h5>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 12rem ;">
-        <div class="card-body" style="background-color: #1e1e39;">
-          <h5 class="card-title" style="color: white;">Dark card title</h5>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 12rem ;">
-        <div class="card-body" style="background-color: #1e1e39;">
-          <h5 class="card-title" style="color: white;">Dark card title</h5>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 12rem">
-        <div class="card-body" style="background-color: #1e1e39;">
-          <h5 class="card-title" style="color: white;">Dark card title</h5>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-2 mb-3 forecast-card" style="max-width: 12rem ;">
-        <div class="card-body" style="background-color: #1e1e39;">
-          <h5 class="card-title" style="color: white;">Dark card title</h5>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-          <p class="card-text" style="color: aliceblue;">hello</p>
-        </div>
-      </div>
-
-    </div>
-  </main>
-
-
   <script src="./assets/script.js"></script>
 </body>
 

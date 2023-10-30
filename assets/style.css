@@ -1,10 +1,22 @@
 .forecast-card {
     display: inline-block;
-    margin-right: 20px;
-    float: right;
+    margin-right: 30px;
+    /* float: right; */
+
 }
-.card-body-1 {
-    display: inline-block;
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    align-content: flex-start;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
